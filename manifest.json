@@ -1,0 +1,9 @@
+{
+  "name": "CEMID",
+  "description": "Select images on a page and download them.",
+  "version": "0.1",
+  "minimum_chrome_version": "16.0.884",
+  "permissions": ["downloads", "<all_urls>", "activeTab"],
+  "browser_action": {"default_popup": "popup.html"},
+  "manifest_version": 2
+}
